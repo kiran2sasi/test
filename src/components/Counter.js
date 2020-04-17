@@ -16,7 +16,7 @@ class Counter extends React.Component{
     render(){
         return(
             <div>
-                <h1>Continues Integration / Continues Deployment with GitHub</h1>
+                <h1>FlairTechno PVT LTD</h1>
                 People visited so far is : {this.state.counter}
                 <button onClick = {this.handleCount} >Click here</button>
             </div>
