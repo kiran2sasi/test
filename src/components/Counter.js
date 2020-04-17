@@ -16,7 +16,7 @@ class Counter extends React.Component{
     render(){
         return(
             <div>
-                You have seen this site {this.state.counter}
+                People visited so far is : {this.state.counter}
                 <button onClick = {this.handleCount} >Click here</button>
             </div>
         )
